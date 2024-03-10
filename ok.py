@@ -110,6 +110,6 @@ class Admin:
         self.narzedzia_administracyjne = nowe_narzedzia_administracyjne
 
 
-osoba1 = Osoba("John", "Germanski", 50)
+osoba1 = Osoba("John", "Doe", 50)
 pracownik1 = Pracownik(osoba1, "pracowac")
 pracownik1.info()
